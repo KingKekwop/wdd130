@@ -1,14 +1,31 @@
-main {max-width:auto;}
+main {max-width: 840px;
+      margin: 0 auto;
+      padding: 1em;
+}
 
 main img{ width: 150px;
           height: auto;
           border: 1px solid steeblue;
           padding: 2px;
-          box-shadow: 0 0 30px gray: }
+          box-shadow: 0 0 30px gray;
+          margin: 10px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          }
 
 nav a{ color: white;
       padding: 10px;
-      display: block;}
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      background-color: darkblue;
+      font-size: 1.2em;
+      font-weight: bold;
+      margin: 10px;
+      border-radius: 10px;
+      box-shadow: 0 0 30px gray;
+      }
     
 aside {width:20em;
       margin:1em;
